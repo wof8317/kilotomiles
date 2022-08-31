@@ -16,13 +16,19 @@
     along with this program.If not, see < https://www.gnu.org/licenses/>.
 */
 #include <iostream>
+using namespace std;
 
 int main() {
-	double k;
+    double k;
 	double mi;
 
-	std::cout << "Enter number in Kilometers to convert to Miles: ";
-	std::cin >> k;
+    cout << "kilotomiles  Copyright(C) 2022 Felipe Woods\n";
+    cout << "This program comes with ABSOLUTELY NO WARRANTY.\n";
+    cout << "This is free software, and you are welcome to redistribute it\n";
+    cout << "under certain conditions; See the LICENSE file for details.\n\n";
+
+    cout << "Enter number in Kilometers to convert to Miles: ";
+	cin >> k;
 
 	mi = k * 0.621;
 
