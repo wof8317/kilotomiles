@@ -33,6 +33,6 @@ int main() {
 
 	mi = k * 0.621;
 
-	std::cout << mi << " miles.";
+	std::cout << "You covered " << mi << " miles.";
 	return 0;
 }
